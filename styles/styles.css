@@ -1,0 +1,45 @@
+main {
+    max-width: 800px; /* Adjust the maximum width as per your design */
+}
+
+/* styles.css */
+
+aside {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px 0; /* Adjust margin top and bottom */
+    padding: 20px; /* Adjust padding inside the aside */
+    border: 1px solid #ccc; /* Border style and color */
+    background-color: #f0f0f0; /* Background color */
+    color: #333; /* Text color */
+    text-align: center;
+
+    /* Ensure text has sufficient contrast with background */
+    /* You can use a tool like https://contrast-ratio.com/ to check contrast ratios */
+}
+
+aside img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* styles.css */
+
+main img {
+    width: 150px; /* Set the width of the profile image inside main */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: rounded corners for circular effect */
+    display: block; /* Ensure image is treated as a block element */
+    margin-bottom: 10px; /* Optional: add some bottom margin for spacing */
+}
+
+p{
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px; /* Add top margin to footer for separation from main content */
+    border-top: 1px solid #ccc; /* Add top border to footer for distinction */
+    text-align: center; /* Align text in footer to center */
+}
