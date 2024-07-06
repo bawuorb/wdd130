@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap')
+
+body {
+    font-family: var(--paragraph-font); /* Use the paragraph-font CSS variable */
+    max-width: 960px; /* Limit maximum width of the document */
+    margin: 0 auto; /* Center align the content */
+    padding: 20px; /* Add padding around the document */
+}
+
+:root {
+    /* Color variables */
+    --primary-color: #3B6978; /* Steel Blue */
+    --secondary-color: #D9BF77; /* Goldenrod */
+    --accent1-color: #F2F2F2; /* Ghost White */
+    --accent2-color: #A4D7D6; /* Powder Blue */
+    
+    /* Font variables */
+    --heading-font: 'Roboto', sans-serif; /* Example font family */
+    --paragraph-font: 'Arial', sans-serif; /* Default paragraph font */
+    
+    /* Navigation variables */
+    --nav-background-color: #FFFFFF; /* White */
+    --nav-link-color: #3B6978; /* Steel Blue */
+    --nav-link-hover-color: #A4D7D6; /* Powder Blue */
+    --nav-hover-background-color: #F2F2F2; /* Ghost White */
+}
+
+body {
+    font-family: var(--paragraph-font); /* Use the paragraph-font CSS variable */
+    max-width: 960px; /* Limit maximum width of the document */
+    margin: 0 auto; /* Center align the content */
+    padding: 20px; /* Add padding around the document */
+}
+
+/* Example of using heading font variable */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font); /* Use the heading-font CSS variable */
+    color: var(--secondary-color); /* Use the secondary-color CSS variable */
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+p {
+  padding: 25px;
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-link-hover-color);
+  background-color: var(--nav-hover-background-color);
+}
